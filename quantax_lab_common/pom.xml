@@ -12,6 +12,7 @@
     <artifactId>quantax_lab_common</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>quantax_lab_common</name>
+    <packaging>pom</packaging>
     <description>quantax_lab_common</description>
     <url/>
     <licenses>
@@ -26,6 +27,13 @@
         <tag/>
         <url/>
     </scm>
+    <modules>
+        <module>quantax_lab_common_bean</module>
+        <module>quantax_lab_common_cache</module>
+        <module>quantax_lab_common_mapper</module>
+        <module>quantax_lab_common_utils</module>
+    </modules>
+
     <properties>
         <java.version>21</java.version>
     </properties>
