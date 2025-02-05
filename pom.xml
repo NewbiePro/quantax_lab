@@ -37,6 +37,7 @@
         <module>quantax_lab_ucenter</module>
         <module>quantax_lab_wallet</module>
         <module>quantax_lab_gateway</module>
+        <module>quantax_lab_event_bus</module>
     </modules>
     <properties>
         <java.version>21</java.version>
