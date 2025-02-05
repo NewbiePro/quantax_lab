@@ -162,8 +162,10 @@ erDiagram
 
     %% 关系定义
     USERS ||--o{ WALLETS : "owns"
-    USERS ||--o{ ORDERS : "places"
+    USERS ||--o{ SPOT_ORDERS : "places"
+    USERS ||--o{ CONTRACT_ORDERS : "places"
     ORDERS ||--|{ TRADES : "generates"
-    MARKET_DATA ||--o{ ORDERS : "associates with"
+    MARKET_DATA ||--o{ SPOT_ORDERS : "associates with"
+    MARKET_DATA ||--o{ CONTRACT_ORDERS : "associates with"
 ```
 
