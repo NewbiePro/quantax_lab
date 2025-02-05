@@ -1,13 +1,13 @@
-package com.quantax.lab.common.mapper;
+package com.quantax.lab.eventbus;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class QuantaxLabCommonMapperApplication {
+public class QuantaxLabEventBusApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(QuantaxLabCommonMapperApplication.class, args);
+        SpringApplication.run(QuantaxLabEventBusApplication.class, args);
     }
 
 }

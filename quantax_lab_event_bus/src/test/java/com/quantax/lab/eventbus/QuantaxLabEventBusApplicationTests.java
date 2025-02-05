@@ -1,10 +1,10 @@
-package com.quantax.lab.common.mapper;
+package com.quantax.lab.eventbus;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class QuantaxLabCommonMapperApplicationTests {
+class QuantaxLabEventBusApplicationTests {
 
     @Test
     void contextLoads() {

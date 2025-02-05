@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.quantax.lab</groupId>
-    <artifactId>quantax_lab_common_mapper</artifactId>
+    <artifactId>quantax_lab_event_bus</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>quantax_lab_common_mapper</name>
-    <description>quantax_lab_common_mapper</description>
+    <name>quantax_lab_event_bus</name>
+    <description>quantax_lab_event_bus</description>
     <url/>
     <licenses>
         <license/>

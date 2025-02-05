@@ -28,9 +28,7 @@
         <url/>
     </scm>
     <modules>
-        <module>quantax_lab_common_bean</module>
         <module>quantax_lab_common_cache</module>
-        <module>quantax_lab_common_mapper</module>
         <module>quantax_lab_common_utils</module>
     </modules>
 
