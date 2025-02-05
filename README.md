@@ -164,7 +164,8 @@ erDiagram
     USERS ||--o{ WALLETS : "owns"
     USERS ||--o{ SPOT_ORDERS : "places"
     USERS ||--o{ CONTRACT_ORDERS : "places"
-    ORDERS ||--|{ TRADES : "generates"
+    SPOT_ORDERS ||--|{ TRADES : "generates"
+    CONTRACT_ORDERS ||--|{ TRADES : "generates"
     MARKET_DATA ||--o{ SPOT_ORDERS : "associates with"
     MARKET_DATA ||--o{ CONTRACT_ORDERS : "associates with"
 ```
