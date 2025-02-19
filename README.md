@@ -60,8 +60,7 @@ graph TD
     quantax_lab_admin --> quantax_lab_core
     quantax_lab_admin --> quantax_lab_ucenter
 ```
----
-## ERD Diagram
+
 ```mermaid
 erDiagram
     %% 用户中心：用户基本信息
@@ -169,4 +168,4 @@ erDiagram
     MARKET_DATA ||--o{ SPOT_ORDERS : "associates with"
     MARKET_DATA ||--o{ CONTRACT_ORDERS : "associates with"
 ```
-
+## Overview Structure
