@@ -169,4 +169,4 @@ erDiagram
     MARKET_DATA ||--o{ CONTRACT_ORDERS : "associates with"
 ```
 ## Overview Structure
-[Excalidraw Doc](https://excalidraw.com/#json=quantaxLab.excalidraw)
+[Excalidraw Doc](https://excalidraw.com/#json=https://github.com/NewbiePro/quantax_lab/blob/main/quantaxLab.excalidraw)
